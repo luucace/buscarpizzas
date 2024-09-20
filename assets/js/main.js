@@ -64,8 +64,6 @@ const handleFormSubmit = (e) => {
 
 
 
-
-
 // Ultima pizza 
     const renderUltPizza = () => {
         const ultimaPizza = localStorage.getItem('ultimaPizza');
