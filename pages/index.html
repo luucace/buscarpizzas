@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>buscador de pizzas</h1>
-    <form id="Formulario">
-        <label for="inputnumber"></label>
-        <input type="number"  id="inputnumber" placeholder="Busca tu pizza favorita">
-        <button type="submit">Buscar</button>
+    <section class="container">   
+<!-- Formulario -->
+    <form class="add-form">
+        <div class="input-container">
+            <h1>Busca tu pizza favorita</h1>
+            
+            <input type="number" id="pizza-id" placeholder="Ingresa un id de pizza">
+        </div>
+        <button class="add-btn">Buscar</button>
     </form>
-    
+</section>
+
     <!-- Contenedor para las imagenes de la pizza o error -->
     <div id="container-pizzas"></div>
 
 
-    <script src="/assets/js/main.js"></script>
+
+<!-- Scripts -->
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
